@@ -7,9 +7,8 @@
       --clr-#{$color-name}-#{$shade}: #{$color};
     }
   }
-
-
-    @each $amount,$value in a.$spacing {
-      --spacing-#{$amount}: #{$value};
-    }
+  
+  @each $amount, $value in a.$spacing {
+    --spacing-#{$amount}: #{$value};
+  }
 }
