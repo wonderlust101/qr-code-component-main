@@ -1,0 +1,17 @@
+// base style for the entire app
+
+@use '../abstracts' as a;
+
+body {
+  background-color: var(--clr-slate-300);
+}
+
+main {
+  background-color: var(--clr-white-500);
+  padding: var(--spacing-200);
+  border-radius: 1.25rem;
+}
+
+img {
+  border-radius: 0.625rem;
+}

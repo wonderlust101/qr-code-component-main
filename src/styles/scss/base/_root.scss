@@ -1,0 +1,15 @@
+@use '../abstracts' as a;
+
+:root {
+  // colors
+  @each $color-name, $shade in a.$colors {
+    @each $shade, $color in $shade {
+      --clr-#{$color-name}-#{$shade}: #{$color};
+    }
+  }
+
+
+    @each $amount,$value in a.$spacing {
+      --spacing-#{$amount}: #{$value};
+    }
+}

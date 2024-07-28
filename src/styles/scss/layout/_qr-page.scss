@@ -1,0 +1,29 @@
+// qr Code Page
+
+body {
+  display: grid;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  padding-bottom: var(--spacing-500);
+  margin: auto;
+  width: min(22rem, 90%);
+
+  & img {
+    width: 25rem;
+    margin-bottom: var(--spacing-300);
+    text-align: center;
+  }
+
+  & .text-area{
+    width: inherit;
+    padding: 0 16px;
+    text-align: center;
+
+    & h1 {
+      margin-bottom: var(--spacing-200);
+    }
+  }
+}
