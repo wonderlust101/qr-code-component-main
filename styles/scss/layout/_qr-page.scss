@@ -4,26 +4,23 @@ body {
   display: grid;
 }
 
-main {
+.qr-code {
   display: grid;
   justify-items: center;
   padding-bottom: var(--spacing-500);
   margin: auto;
-  width: min(22rem, 90%);
+  width: min(20rem, 90%);
 
-  & img {
+  &__image {
     width: 25rem;
     margin-bottom: var(--spacing-300);
     text-align: center;
   }
 
-  & .text-area {
-    width: inherit;
+  &__text {
+    display: grid;
+    gap: var(--spacing-200);
     padding: 0 16px;
     text-align: center;
-
-    & h1 {
-      margin-bottom: var(--spacing-200);
-    }
   }
 }
