@@ -5,10 +5,8 @@ body {
 }
 
 .qr-code {
-  display: grid;
-  justify-items: center;
+  place-self: center;
   padding-bottom: var(--spacing-500);
-  margin: auto;
   width: min(20rem, 90%);
 
   &__image {
