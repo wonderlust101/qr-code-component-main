@@ -1,0 +1,18 @@
+// base style for the entire app
+
+@use '../abstracts' as a;
+
+:root {
+  @include a.map-to-root(clr, a.$colors);
+  @include a.map-to-root(spacing, a.$spacing);
+}
+
+body {
+  display: grid;
+  background-color: var(--clr-slate-300);
+  margin: 4.5rem 0;
+
+  & > * {
+    place-self: center;
+  }
+}

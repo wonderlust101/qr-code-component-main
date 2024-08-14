@@ -1,17 +1,13 @@
-// qr Code Page
-
-body {
-  display: grid;
-}
-
 .qr-code {
-  place-self: center;
-  padding-bottom: var(--spacing-500);
-  width: min(20rem, 90%);
+  display: grid;
+  padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
+  background-color: var(--clr-white-500);
+  border-radius: 1.25rem;
 
   &__image {
     margin-bottom: var(--spacing-300);
     text-align: center;
+    border-radius: 0.5rem;
   }
 
   &__text {
