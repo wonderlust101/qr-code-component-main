@@ -5,7 +5,7 @@ type DescriptionProps = {
     className: string;
 }
 
-export default function Description({children, className}: DescriptionProps) {
+export default function Description({children, className}: DescriptionProps): JSX.Element {
     return (<section className={className}>
         {children}
     </section>)

@@ -10,9 +10,4 @@
 body {
   display: grid;
   background-color: var(--clr-slate-300);
-  margin: 4.5rem 0;
-
-  & > * {
-    place-self: center;
-  }
 }
